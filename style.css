@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Poller+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 4rem;
+  text-shadow: -2px -2px 0 #2879bb;
+}
+
+hr {
+  width: 90%;
+  height: 0;
+  margin: 1rem;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > ul {
+  width: 100%; 
+}
+
+ul > li {
+    width: 25rem;
+    height: 10rem;
+    border: double gray 2px;
+    list-style: none;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.5rem;
+    cursor:move
+}
+
+.custom-list {
+  background-color: #8ac3e9;
+  text-shadow: 0 0 10px #0e91ee;
+  border: dotted 2px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #4748B5;
+  font-family: 'Poller One', serif;
+  padding: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 1px #14a3bc;
+}
+
+.drag {
+  background-color: #0e91ee;
+}

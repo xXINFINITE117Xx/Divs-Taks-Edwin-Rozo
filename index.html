@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="taskStyle.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Drag And Drop</h1>
+  <hr>
+  <main>
+    <h2>Task List</h2>
+    <hr>
+    <div class="container-task">
+      <ul id="list">
+        <li data-id="tsk-1" class="taskItem">
+          <h2 class="title-task">Task-1</h2>
+          <div id="color-priority" class="color-priority">.</div>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat ipsam totam iste nesciunt quasi rem maiores dolorum laboriosam voluptate, labore est excepturi expedita distinctio nihil velit ipsa error repellat.</p>
+          <select name="" id="priority">
+            <option value="null">Prioridad</option>
+            <option value="1">1-alta</option>
+            <option value="2">2-media</option>
+            <option value="3">3-baja</option>
+          </select>
+        </li>        
+        <li data-id="tsk-2" class="taskItem">
+          <h2 class="title-task">Task-2</h2>
+          <div id="color-priority" class="color-priority">.</div>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat ipsam totam iste nesciunt quasi rem maiores dolorum laboriosam voluptate, labore est excepturi expedita distinctio nihil velit ipsa error repellat.</p>
+          <select name="" id="priority">
+            <option value="null">Prioridad</option>
+            <option value="1">1-alta</option>
+            <option value="2">2-media</option>
+            <option value="3">3-baja</option>
+          </select>
+        </li>        
+        <li data-id="tsk-3" class="taskItem">
+          <h2 class="title-task">Task-3</h2>
+          <div id="color-priority" class="color-priority">.</div>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat ipsam totam iste nesciunt quasi rem maiores dolorum laboriosam voluptate, labore est excepturi expedita distinctio nihil velit ipsa error repellat.</p>
+          <select name="" id="priority">
+            <option value="null">Prioridad</option>
+            <option value="1">1-alta</option>
+            <option value="2">2-media</option>
+            <option value="3">3-baja</option>
+          </select>
+        </li>        
+        <li data-id="tsk-4" class="taskItem">
+          <h2 class="title-task">Task-4</h2>
+          <div id="color-priority" class="color-priority">.</div>
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat ipsam totam iste nesciunt quasi rem maiores dolorum laboriosam voluptate, labore est excepturi expedita distinctio nihil velit ipsa error repellat.</p>
+          <select name="" id="priority">
+            <option value="null">Prioridad</option>
+            <option value="1">1-alta</option>
+            <option value="2">2-media</option>
+            <option value="3">3-baja</option>
+          </select>
+        </li>                
+      </ul>
+    </div>
+  </main>
+  <!-- Importante: Primero debe ir la librería de sortable -->
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

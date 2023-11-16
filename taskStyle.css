@@ -1,0 +1,39 @@
+.taskItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d2d5d6;
+  border: double 3px #4c4b54;
+}
+
+.taskItem > .title-task {
+  font-size: 1rem;
+  color: black;
+  text-shadow: 0 0 0 #484749;    
+  padding: 0;
+  align-self: flex-start;
+  margin-left: 0.5rem;
+}
+
+.color-priority {
+  width: 4rem;
+  height: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 5px;  
+  color: transparent; 
+  align-self: flex-start;
+  background-color: ;
+}
+
+.taskItem > .description {
+  font-size: 1rem;
+  overflow-y: scroll;
+  margin: 1rem;
+}
+
+.taskItem > select {
+  align-self: flex-end;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
